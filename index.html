@@ -3,33 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Login</title>
+    <title>Login Screen</title>
     <meta name="author" content="David Grzyb">
     <meta name="description" content="">
-
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"> </script>    
 </head>
+
 <body class=" font-family-karla h-screen bg-[#061b28]">
     <div class="flex justify-center items-center rounded-lg h-screen lg:p-64 sm:p-16 md:p-16">
         <div class="w-full flex flex-wrap border-width: 1px bg-[#0c2230] shadow-xl rounded px-8 pt-6 pb-8 mb-4">
 
-            <!-- Login Section -->
+            <!-- Image Section -->
             <div class="w-full md:w-1/2 flex flex-col ">
-
-                <img class="object-cover hidden md:block py-8"  src="img/img.svg" />
-
-                
+                <img class="object-cover hidden md:block py-8"  src="img/img.svg" />    
             </div>
 
-            <!-- Image Section -->
+            <!-- Login Section -->
             <div class="md:w-1/2 ">
               <div class="flex flex-col justify-center md:justify-start my-auto px-9 py-9 ">
                 <p class="text-center text-3xl text-[#3d87b4]">Welcome Back!</p>
-               
-               
-               
                 <form class="flex flex-col pt-3 "  action="" method="POST">
+                    
                     <div class="flex flex-col pt-4">
                         <label for="email" class="text-lg text-white">Email</label>
                         <input type="text" name="username" class="text-white mt-1 px-3 py-2 bg-[#061b28] border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-[#3d87b4] focus:ring-[#3d87b4] block w-full rounded-md sm:text-sm focus:ring-1" placeholder="you@example.com" />                        
@@ -41,10 +36,12 @@
                     </div>
     
                     <input type="submit" name="submit" value="Log In" class="bg-[#3d87b4] text-white font-bold text-lg hover:bg-blue-600 p-2 mt-8 rounded-lg">
+                
                 </form>
-            </div>
+               </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
