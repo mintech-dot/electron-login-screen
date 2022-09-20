@@ -19,9 +19,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/mintech-dot/electronjs-auth
+git https://github.com/mintech-dot/electron-login-screen
 # Go into the repository
-cd electron-quick-start
+cd electron-login-screen
 # Install dependencies
 npm install
 # Run the app
