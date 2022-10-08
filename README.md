@@ -4,7 +4,7 @@ A simple project template for starting Electron Projects, using tailwindcss and 
 
 **Clone and run for a quick way to see Electron in action.**
 
-<a href="https://ibb.co/q9PSCxz"><img src="https://i.ibb.co/ct7BwxP/Screenshot-from-2022-09-20-11-39-59.png" alt="Screenshot-from-2022-09-20-11-39-59" border="0"></a>
+<a ><img src="https://i.ibb.co/ct7BwxP/Screenshot-from-2022-09-20-11-39-59.png" alt="Screenshot-from-2022-09-20-11-39-59" border="0"></a>
 
 
 A basic Electron application needs just these files:
